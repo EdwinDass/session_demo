@@ -9,6 +9,6 @@ async function getValidateCode(code) {
   }
 }
 
-getValidateCode(1230000)
+getValidateCode(1000)
   .then((e) => console.log(e))
   .catch((e) => console.log(e));
